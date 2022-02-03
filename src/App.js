@@ -2,27 +2,23 @@ import { NavBar } from "./components/NavBar"
 import {Route, Routes} from 'react-router-dom'
 import Home from "./pages/Home"
 import { List } from './pages/List'
+import { useState, useEffect } from 'react'
+import axios from 'axios'
 
-const movies = [
-  {
-    id: 1,
-    name: 'The Lobster',
-    ano: 2015,
-    genero: ['comedia', 'drama', 'romance'],
-    sinopse: 'Distopia sobre relacionamentos',
-    score: 8
-  },
-  {
-    id: 2,
-    name: 'Rocky',
-    ano: 1976,
-    genero: ['drama', 'esporte'],
-    sinopse: 'Subindo a escada com musica bonita',
-    score: 6
-  },
-]
 
 function App() {
+
+  const [movies, setMovies] = useState([])
+
+  const getMovies = async () => {
+    const { data } = await axios.get('http://localhost:8000/movies')
+    setMovies(data)
+  }
+
+  useEffect(()=>{
+    getMovies()
+  },[])
+
   return (
     <div className="App">
       <NavBar />
