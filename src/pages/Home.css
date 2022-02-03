@@ -1,0 +1,40 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.title-space {
+  height: 12rem;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.search-area {
+  padding: 1rem;
+  border: 1px solid steelblue;
+  width: 60%;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.home-links {
+  width: 18rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  background-color: steelblue;
+  border-radius: 3px;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: bold;
+}

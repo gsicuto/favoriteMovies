@@ -1,6 +1,7 @@
 .navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 0.5rem 0.8rem;
   background-color: steelblue;
 }
@@ -12,7 +13,6 @@
 }
 
 .logo {
-  margin: 0 1rem;
   text-transform: uppercase;
   color: whitesmoke;
   font-weight: bold;
@@ -23,8 +23,12 @@
   font-weight: bold;
 }
 
-.link {
+nav .link {
   text-decoration: none;
   color: whitesmoke;
   font-weight: bold;
+}
+
+nav .link.active {
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
