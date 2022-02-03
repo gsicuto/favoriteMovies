@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Home.css";
 
-const Home = () => {
+export const Home = () => {
   return (
     <section className="home">
       <div className="title-space">
@@ -20,5 +20,3 @@ const Home = () => {
     </section>
   );
 };
-
-export default Home;
