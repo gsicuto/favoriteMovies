@@ -28,7 +28,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route path='/' element={<Home />}/>
-        <Route path='/movies-list' element={<List />}/>
+        <Route path='/movies-list' element={<List movies={ movies } />}/>
       </Routes>
     </div>
   );

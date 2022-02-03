@@ -1,7 +1,8 @@
 import React from 'react';
+import { MoviesList } from '../components/MoviesList';
 
-export const List = () => {
+export const List = ({ movies }) => {
   return <div>
-    Aqui vira a lista de filmes
+    <MoviesList movies={ movies }/>
   </div>;
 };
