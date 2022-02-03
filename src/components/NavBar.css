@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0.8rem;
+  background-color: steelblue;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  width: 230px;
+}
+
+.logo {
+  margin: 0 1rem;
+  text-transform: uppercase;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.movies-total {
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.link {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: bold;
+}
