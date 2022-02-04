@@ -1,8 +1,9 @@
 import React from 'react';
+import './MovieCard.css'
 
 export const MovieCard = ({ image, name }) => {
-  return <div>
+  return <div className='movie-card'>
     <img src={image} alt={name}/>
-    <h2>{name}</h2>
+    <h3>{name}</h3>
   </div>;
 };

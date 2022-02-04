@@ -1,9 +1,8 @@
 import React from 'react';
+import { MovieCard } from './MovieCard';
 
 export const MoviesList = ({movies}) => {
   return <>
-    {movies.map( movie => <h1>{movie.name}</h1>)} 
+    {movies.map( movie => <MovieCard image={movie.image} name={movie.name}/>)} 
   </>;
 };
-
-// adicionar o MovieCard no retorno do map
