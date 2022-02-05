@@ -36,7 +36,7 @@ export const MovieForm = () => {
         genero: genero.split(',').map(e => e.trim()),
         image
       }
-      await axios.post('http://localhost:8000/movies', newMovie);
+      await axios.post('https://ironrest.herokuapp.com/favoriteMoviesExample', newMovie);
       setName('')
       setScore(0)
       setGenero()

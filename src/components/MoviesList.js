@@ -3,6 +3,6 @@ import { MovieCard } from './MovieCard';
 
 export const MoviesList = ({ movies }) => {
   return <>
-    {movies.map( movie => <MovieCard key={movie.id} {...movie} />)} 
+    {movies.map( movie => <MovieCard key={movie._id} {...movie} />)} 
   </>;
 };

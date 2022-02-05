@@ -11,7 +11,7 @@ export const MovieDetail = () => {
 
   useEffect(()=>{
     const getOneMovie = async() => {
-      const { data } = await axios.get(`http://localhost:8000/movies/${id}`)
+      const { data } = await axios.get(`https://ironrest.herokuapp.com/favoriteMoviesExample/${id}`)
       setMovie(data)
     }
     getOneMovie()
