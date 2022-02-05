@@ -5,7 +5,11 @@
       "image": "https://upload.wikimedia.org/wikipedia/pt/thumb/2/29/The_Lobster.jpg/200px-The_Lobster.jpg",
       "name": "The Lobster",
       "ano": 2015,
-      "genero": ["comedia", "drama", "romance"],
+      "genero": [
+        "comedia",
+        "drama",
+        "romance"
+      ],
       "sinopse": "Distopia sobre relacionamentos",
       "score": 8
     },
@@ -14,9 +18,36 @@
       "image": "https://static.wikia.nocookie.net/liberproeliis/images/9/92/Rockybalboa.jpg/revision/latest?cb=20190111022823&path-prefix=pt-br",
       "name": "Rocky",
       "ano": 1976,
-      "genero": ["drama", "esporte"],
+      "genero": [
+        "drama",
+        "esporte"
+      ],
       "sinopse": "Subindo a escada com musica bonita",
       "score": 6
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/91MnKvntsVL._AC_SY550_.jpg",
+      "name": "Senhor dos Aneis - Retorno do Rei",
+      "ano": "2003",
+      "genero": [
+        "fantasia",
+        "aventura"
+      ],
+      "sinopse": "Frodo vai no vulcão bota fogo no anel",
+      "score": 9,
+      "id": 3
+    },
+    {
+      "name": "The Grinch",
+      "ano": "2018",
+      "sinopse": "Ele quer acabar com o natal",
+      "score": 5,
+      "genero": [
+        "comédia",
+        "romance"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/pt/4/40/The_Grinch_%282018_film%29.png",
+      "id": 4
     }
   ]
 }
