@@ -5,6 +5,7 @@ import { List } from './pages/List'
 import { useState, useEffect } from 'react'
 import axios from 'axios'
 import { NewMovie } from "./pages/NewMovie"
+import { MovieDetail } from "./pages/MovieDetail"
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/movies-list" element={<List movies={movies} getMovies={getMovies} />} />
         <Route path="/addmovie" element={<NewMovie/>} />
+        <Route path="/movie/:id" element={<MovieDetail/>} />
       </Routes>
     </div>
   );
